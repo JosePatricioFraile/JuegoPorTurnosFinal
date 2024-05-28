@@ -47,7 +47,7 @@ Hereda de `Personaje` e implementa `MovimientoEspecial`.
 
 - **Crear un personaje** ➕: pide el nombre y la clase que quiere que sea. Al elegir la clase tiene un `try catch` de manera que si no se elige una de las opciones correctas, crea un mensaje de error y sale por el fichero. Al crear el personaje se guarda en un `ArrayList` de los personajes y se inserta en la base de datos.
 
-- **Mostrar personajes**´👀: muestra las estadísticas de todos los personajes que se encuentren en el `ArrayList` de los personajes.
+- **Mostrar personajes** 👀: muestra las estadísticas de todos los personajes que se encuentren en el `ArrayList` de los personajes.
 
 - **Eliminar un personaje** ❌: comprueba que el personaje esté en el `ArrayList`, si está se elimina de este y de la base de datos. Si no está, manda un mensaje de error y también se guarda en el fichero de los logs de error.
 
